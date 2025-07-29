@@ -1,8 +1,5 @@
 # Project_OOP
-<img width="1279" height="553" alt="Ekran görüntüsü 2025-07-29 191633" src="https://github.com/user-attachments/assets/c5b2e024-6e8b-4ba2-88e2-2648cb0ef89b" />
-<img width="1279" height="509" alt="Ekran görüntüsü 2025-07-29 191643" src="https://github.com/user-attachments/assets/aed52fb9-a43a-4564-8378-8d89f3131b3d" />
-<img width="1279" height="508" alt="Ekran görüntüsü 2025-07-29 191651" src="https://github.com/user-attachments/assets/182e79a4-0945-4ed6-ba2f-1ea03327f1ec" />
-<img width="1279" height="506" alt="Ekran görüntüsü 2025-07-29 191656" src="https://github.com/user-attachments/assets/667f22d5-224e-4268-b531-dd956342e299" />
+
 
 ## Hakkında
 
@@ -84,3 +81,8 @@ public class Category
 - Ana Sayfa: Menüden Ürünler, Müşteriler ve Deneme sayfalarına geçiş.
 - Ürünler: Ürün listesi, yeni ürün ekleme, silme ve güncelleme işlemleri.
 - Müşteriler: Müşteri listesi, yeni müşteri ekleme, silme ve güncelleme işlemleri.
+
+<img width="1279" height="553" alt="Ekran görüntüsü 2025-07-29 191633" src="https://github.com/user-attachments/assets/c5b2e024-6e8b-4ba2-88e2-2648cb0ef89b" />
+<img width="1279" height="509" alt="Ekran görüntüsü 2025-07-29 191643" src="https://github.com/user-attachments/assets/aed52fb9-a43a-4564-8378-8d89f3131b3d" />
+<img width="1279" height="508" alt="Ekran görüntüsü 2025-07-29 191651" src="https://github.com/user-attachments/assets/182e79a4-0945-4ed6-ba2f-1ea03327f1ec" />
+<img width="1279" height="506" alt="Ekran görüntüsü 2025-07-29 191656" src="https://github.com/user-attachments/assets/667f22d5-224e-4268-b531-dd956342e299" />
