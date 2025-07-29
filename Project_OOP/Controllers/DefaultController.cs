@@ -53,8 +53,16 @@ namespace Project_OOP.Controllers
 
         public IActionResult Index()
         {
+            Kullanıcı("Mert Ali");
+            MesajListesi("Mert");
             mesajlar();
+            ViewBag.m9 = Topla(5, 10);
             return View();
+        }
+
+        void Kullanıcı(string kullanıcıadı)
+        {
+            ViewBag.k = kullanıcıadı;
         }
 
         public IActionResult Ürünler()
@@ -72,5 +80,79 @@ namespace Project_OOP.Controllers
             return View();
         }
 
+        void MesajListesi(string p)
+        {
+            ViewBag.m8 = p;
+        }
+
+        int Topla(int a, int b)
+        {
+            int s = a + b;
+            return s;
+        }
+
+        int fak(int p)
+        {
+            int f = 1;
+            for (int i = 1; i <= p; i++)
+            {
+                f *= i;
+            }
+            return f;
+        }
+
+        public IActionResult Deneme()
+        {
+            Şehirler şehirler = new Şehirler();
+
+            şehirler.ŞehirAdı = "İstanbul";
+            şehirler.ŞehirId = 1;
+            şehirler.ŞehirNüfus = 15000000;
+            şehirler.Ülke = "Türkiye";
+            şehirler.Renk1 = "Kırmızı";
+            şehirler.Renk2 = "Beyaz";
+            şehirler.Bayrakemoji = "🇹🇷";
+            ViewBag.a1 = şehirler.ŞehirAdı;
+            ViewBag.a2 = şehirler.ŞehirId;
+            ViewBag.a3 = şehirler.ŞehirNüfus;
+            ViewBag.a4 = şehirler.Ülke;
+            ViewBag.a5 = şehirler.Renk1;
+            ViewBag.a6 = şehirler.Renk2;
+            ViewBag.a7 = şehirler.Bayrakemoji;
+
+
+            şehirler.ŞehirAdı = "Ankara";
+            şehirler.ŞehirId = 2;
+            şehirler.ŞehirNüfus = 5000000;
+            şehirler.Ülke = "Türkiye";
+            şehirler.Renk1 = "Kırmızı";
+            şehirler.Renk2 = "Beyaz";
+            şehirler.Bayrakemoji = "🇹🇷";
+            ViewBag.b1 = şehirler.ŞehirAdı;
+            ViewBag.b2 = şehirler.ŞehirId;
+            ViewBag.b3 = şehirler.ŞehirNüfus;
+            ViewBag.b4 = şehirler.Ülke;
+            ViewBag.b5 = şehirler.Renk1;
+            ViewBag.b6 = şehirler.Renk2;
+            ViewBag.b7 = şehirler.Bayrakemoji;
+
+
+            şehirler.ŞehirAdı = "İzmir";
+            şehirler.ŞehirId = 3;
+            şehirler.ŞehirNüfus = 4000000;
+            şehirler.Ülke = "Türkiye";
+            şehirler.Renk1 = "Kırmızı";
+            şehirler.Renk2 = "Beyaz";
+            şehirler.Bayrakemoji = "🇹🇷";
+            ViewBag.c1 = şehirler.ŞehirAdı;
+            ViewBag.c2 = şehirler.ŞehirId;
+            ViewBag.c3 = şehirler.ŞehirNüfus;
+            ViewBag.c4 = şehirler.Ülke;
+            ViewBag.c5 = şehirler.Renk1;
+            ViewBag.c6 = şehirler.Renk2;
+            ViewBag.c7 = şehirler.Bayrakemoji;
+
+            return View();
+        }
     }
 }

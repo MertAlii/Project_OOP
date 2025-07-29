@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Deneme";
+}
+
+<h1>Deneme</h1>
+<a href="/Default/Index/" class="btn btn-info">Index Sayfası</a>
+<a href="/Default/Ürünler/" class="btn btn-info">Ürünler Sayfası</a>
+<a href="/Default/Müşteriler/" class="btn btn-info">Müşteriler Sayfası</a>
+<a href="/Default/Deneme/" class="btn btn-info">Deneme Sayfası</a>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Ülke</th>
+        <th>Şehir</th>
+        <th>Nüfus</th>
+        <th>Bayrak</th>
+    </tr>
+    <tr>
+        <td>@ViewBag.a2</td>
+        <td>@ViewBag.a4</td>
+        <td>@ViewBag.a1</td>
+        <td>@ViewBag.a3</td>
+        <td>@ViewBag.a5 - @ViewBag.a6 - @ViewBag.a7</td>
+    </tr>
+    <tr>
+        <td>@ViewBag.b2</td>
+        <td>@ViewBag.b4</td>
+        <td>@ViewBag.b1</td>
+        <td>@ViewBag.b3</td>
+        <td>@ViewBag.b5 - @ViewBag.b6 - @ViewBag.b7</td>
+    </tr>
+    <tr>
+        <td>@ViewBag.c2</td>
+        <td>@ViewBag.c4</td>
+        <td>@ViewBag.c1</td>
+        <td>@ViewBag.c3</td>
+        <td>@ViewBag.c5 - @ViewBag.c6 - @ViewBag.c7</td>
+    </tr>
+</table>
